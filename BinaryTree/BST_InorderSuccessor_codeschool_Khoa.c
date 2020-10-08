@@ -46,15 +46,44 @@ struct BstNode* Search(struct BstNode* temp2, int searched_data){
     }
 }
 
+struct BstNode* FindMin(struct BstNode* temp7){
+    if (temp7 == NULL)
+        return NULL;
+    else{
+        while (temp7->leftChild != NULL)
+            temp7 = temp7->leftChild;
+        return temp7;
+    }
+}
+
+void InOrder_traserval(struct BstNode* temp6){
+    if (temp6 == NULL)
+        return;
+    else{
+        InOrder_traserval(temp6->leftChild);
+        printf("%5d",temp6->data);
+        InOrder_traserval(temp6->rightChild);
+    }
+}
+
 struct BstNode* InOrderSuccessor(struct BstNode* temp3, int x){
     struct BstNode* temp4 = Search(temp3, x);
 
     if (temp4->rightChild != NULL)
         return FindMin(temp4->rightChild);
     else{
-        struct Node* temp5 
+        struct BstNode* temp5 = root;
+        struct BstNode* ancestor;
+        while (temp4 != temp5){
+            if (temp5->data > temp4->data){
+                ancestor = temp5;
+                temp5 = temp5->leftChild;
+            }
+            else
+                temp5 = temp5->rightChild;
+        }
+        return ancestor;
     }
-
 }
 
 void main(){
@@ -68,8 +97,13 @@ void main(){
     printf("Nhap so can tim: ");
     scanf("%d", &x);
 
-    if (Search(root, x) == true)
+    if (Search(root, x) != NULL)
         printf("\nFounded\n");
     else
         printf("\nNot Founded\n");
+
+    printf("\ninoder_traversal: "); InOrder_traserval(root);
+
+    int value = 35;
+    printf("\nsuccessor cua %d la: %d", value, InOrderSuccessor(root, value)->data);
 }
