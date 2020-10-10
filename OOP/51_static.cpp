@@ -35,7 +35,7 @@ public:
 	char* getAddress();
 	char* getID();
 
-	static int getCount();              // các hàm là static thì chỉ có thể truy cập đến các thành phần stactic trong class. Còn với các method bình thường thì chúng có thể truy cập tới bất kì thành phần nào kể cả có là static hay không
+	static int getCount();              // các hàm là static thì chỉ có thể truy cập đến các thành phần static trong class. Còn với các method bình thường thì chúng có thể truy cập tới bất kì thành phần nào kể cả có là static hay không
 
 	static void setCount(int c);
 };
