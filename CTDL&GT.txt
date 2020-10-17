@@ -1,0 +1,35 @@
+Nhân tiện ở post này, em xin phép anh Đạt được chia sẻ hướng học CTDL & GT cho bạn nào quan tâm.
+
+Cấu trúc dữ liệu
+Beginner: Linked List, Stack, Queue, Binary Search Tree.
+
+Intermediate: Heap, Priority Queue, Huffman Tree, Union Find, Tries, Hash Table, Tree Map.
+
+Proficient: Segment Tree, Binary Indexed Tree, Suffix Array, Sparse Table, Lowest Common Ancestor, Range Tree.
+
+Expert: Suffix Automaton, Suffix Tree, Heavy-Light Decomposition, Treap, Aho-Corasick, K-d tree, Link-Cut Tree, Splay Tree, Palindromic Tree, Rope, Dancing Links, Radix Tree, Dynamic Suffix Array.
+
+Giải thuật/ thuật toán
+Searching(Linear search, Binary search, Ternary search)
+Sorting (Bubble sort, Insertion sort, Merge sort, Quick sort, Radix sort, …)
+Các giải thuật tham lam
+Giải thuật đồ thị(BFS, DFS, Luồng cực đại, Cây khung nhỏ nhất, Đường đi ngắn nhất,…)
+Giải thuật string(KMP, Z, String search, …)
+Quy hoạch động
+…
+Các bạn có thể tham khảo nguồn hướng dẫn + thực hành luôn ở đây
+DS: https://www.hackerearth.com/practice/data-structures 63
+Algo: https://www.hackerearth.com/practice/algorithms 25
+
+DS & Algo: https://www.geeksforgeeks.org/ 8
+
+Lộ trình học CTDL & GT phục vụ ôn thi ACM/ICPC, nhưng ai cũng có thể follow: https://github.com/Hieunv1996/ACM-ICPC-Preparation 92
+
+Nếu bạn muốn đọc tiếng Việt thì có thể tham khảo 2 series của mình, mình vẫn đang viết tiếp :smiley: :
+DS: https://nguyenvanhieu.vn/cau-truc-du-lieu/ 73
+Algo: https://nguyenvanhieu.vn/thuat-toan/ 58
+
+Các tài liệu bổ sung:
+
+Giải thuật và lập trình 29 - thầy Lê Minh Hoàng
+Introduction to Algorithms - bản tiếng Việt 54
