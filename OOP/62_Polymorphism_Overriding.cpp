@@ -36,7 +36,8 @@ int main() {
 	Animal* a;
     a = new Bird();
 	a->move();          // tùy vào đối tượng tham chiếu thuộc class nào thì nó sẽ gọi hàm move của class đó
-	
+	//vì a là con trỏ nên phải dùng dấu ->
+
 	a = new Fish();
 	a->move();
 
