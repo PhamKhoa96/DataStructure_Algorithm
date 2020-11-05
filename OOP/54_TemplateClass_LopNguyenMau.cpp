@@ -19,7 +19,7 @@ public:
 template<class T> Data<T>::Data(T* data, size_t size) {     //constructor nguyên mẫu    // thông thường các hàm trong lớp nguyên mẫu là các hàm nguyên mẫu
 	this->data = new T[size];
 	this->size = size;
-	this->copyData(data, size);                             //trong constructor có sử dụng method copyData
+	copyData(data, size);                             //trong constructor có sử dụng method copyData
 }
 
 template<class T> void Data<T>::showData() {                // method nguyên mẫu
