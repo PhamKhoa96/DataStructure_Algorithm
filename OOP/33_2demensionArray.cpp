@@ -32,5 +32,17 @@ int main() {
 		cout << endl;
 	}
 
+	cout << endl;
+	cout << sizeof(a);
+
+	for (size_t i = 0; i < 10; i++)
+	{
+		for (size_t j = 0; j < 15; j++)
+		{
+			cout << &a[i][j] << " ";
+		}
+		cout << endl;
+	}
+
 	return 0;
 }
