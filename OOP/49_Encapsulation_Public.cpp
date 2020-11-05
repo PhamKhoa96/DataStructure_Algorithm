@@ -137,5 +137,23 @@ int main() {
 
 	s.showInfo();
 
+	cout << sizeof(s1.getName()) << endl;
+	cout << sizeof(char*) << endl;
+	cout << sizeof(char) << endl;
+
+	cout << typeid(s1.getName()).name() << endl;
+	cout << typeid(char*).name() << endl;
+	
+
+	char test[] = {'h','t','y','e','d','e'};
+	cout << test << endl;
+	cout << *test << endl;
+	cout << &test << endl;
+
+	int test1[] = {1,2,3,4,5,6};
+	cout << test1 << endl;
+	cout << *test1 << endl;
+	cout << &test1 << endl;	
+
 	return 0;
 }

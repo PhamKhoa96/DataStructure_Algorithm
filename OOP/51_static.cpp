@@ -154,7 +154,7 @@ int main() {
 	//cout << Student::count << endl;           nếu như biến được khai báo trong public thì ghi như vầy được
 
 	cout << s7.getCount() << endl;
-	cout << Student::getCount() << endl;        // không nhất thiết cần đối tượng mà chỉ cần tên class là có thể truy cập được
-
+	cout << Student::getCount() << endl;        // vì static là dữ liệu chung cho các đối tượng nên không nhất thiết cần đối tượng mà chỉ cần tên class là có thể truy cập được
+	
 	return 0;
 }

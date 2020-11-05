@@ -6,6 +6,7 @@
 #include<iostream>
 using namespace std;
 
+// cú pháp template<class T(khi ta sử dụng thì ta sẽ truyền kiểu dữ liệu vào chữ T này, và tất cả những gì dùng phía sau mà có chữ T sẽ được thay bằng kiểu dữ liệu truyền vào đó)> T findMax(T a, T b)
 template<class T> T findMax(T a, T b) {             // ta cũng có thể truyền nhiều hơn 1 class vào, VD: template<class U, class V> T findMax(U a, V b)
 	return (a > b) ? a : b;                         // tham khảo bài 54
 }
